@@ -1,36 +1,31 @@
 * {
     padding: 0;
-    margin : 0;
-    font-family:  sans-serif;
-
+    margin: 0;
+    font-family: sans-serif;
 }
 
-body{
+body {
     background: url('/pexels-pnw-prod-8250897.jpg') no-repeat;
     background-size: cover;
-    
 }
 
-h1{
+h1 {
     color: black;
 }
 
-
-.login-form{
-    width: 350 px;
+.login-form {
+    width: 350px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
 }
 
-
 .login-form h1 {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     margin: 40px 0;
-
 }
 
 .login-form p {
@@ -43,9 +38,8 @@ h1{
     width: 100%;
     padding: 15px 10px;
     border: 0;
-    outline:none;
+    outline: none;
     border-radius: 5px;
-
 }
 
 .login-form button {
@@ -55,15 +49,11 @@ h1{
     padding: 15px 10px;
     width: 50%;
     border-radius: 5px;
-
-
 }
 
-
-
-
-
-
-
-
-
+.error-message {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 900;
+}
